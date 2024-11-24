@@ -1,0 +1,121 @@
+* {
+  scroll-behavior: smooth;
+}
+header {
+  background-color: #fff !important;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.hero_section {
+  margin-top: 100px;
+}
+
+.hero_section_ls h1 {
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 82px;
+}
+
+.hero_section_ls p {
+  color: #6c757d !important;
+  max-width: 80%;
+}
+.hero_section_ls a {
+  padding: 0 !important;
+  max-width: 170px;
+  width: 100%;
+}
+.hero_section_ls a img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+}
+.tnw_section {
+  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+  padding: 100px 0;
+}
+.tnw_section h2 {
+  text-align: center !important;
+  color: #fff;
+  max-width: 750px;
+  font-weight: 500;
+  margin: 0 auto !important;
+  margin-bottom: 25px !important;
+}
+.tnw_section img {
+  max-width: 120px;
+  width: 100%;
+  margin: 0 auto;
+}
+.enter_a_new_age_ls {
+  max-width: 500px;
+}
+.enter_a_new_age_ls h2 {
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 52px;
+}
+
+.enter_a_new_age_ls p {
+  color: #6c757d !important;
+  max-width: 80%;
+}
+.stop-waiting {
+  background-color: #7f7f7f !important;
+  color: #fff;
+}
+.stop-waiting_ls {
+  padding: 100px 0;
+  height: 100%;
+}
+.stop-waiting h2 {
+  font-weight: 400;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 72px;
+  margin-bottom: 20px;
+}
+#download_section {
+  background: linear-gradient(45deg, #2937f0, #9f1ae2) !important;
+  padding: 100px 0;
+}
+#download_section h2 {
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+.download_section_buttons {
+  margin: auto 0 !important;
+  display: flex !important;
+  gap: 20px;
+}
+.download_section_buttons a {
+  padding: 0 !important;
+  max-width: 170px;
+  width: 100%;
+}
+.download_section_buttons a img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .hero_section_ls h1 {
+    font-size: 40px;
+  }
+  .tnw_section {
+    padding: 50px 0;
+  }
+  .enter_a_new_age_ls h2 {
+    font-size: 32px;
+  }
+  .stop-waiting h2 {
+    font-size: 32px;
+  }
+  .stop-waiting_ls {
+    padding: 30px 0;
+    height: 100%;
+  }
+}
